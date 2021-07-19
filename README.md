@@ -2,5 +2,5 @@
 
 A simple comment section UI with Giphy Api Integration.
 
-## Demo
+#### Live view
 https://comment-ui.netlify.app
