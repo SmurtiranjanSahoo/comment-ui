@@ -1,0 +1,45 @@
+.comment-wrap {
+  width: 100%;
+  min-height: 62px;
+  padding: 8px 0;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  position: relative;
+}
+.userimg {
+  width: 64px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.userimg img {
+  width: 32px;
+  aspect-ratio: 1/ 1;
+  border-radius: 50%;
+}
+.comment {
+  width: calc(100% - 164px);
+  height: 100%;
+}
+.username {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 10px;
+}
+.comment-text {
+  width: 100%;
+  font-size: 16px;
+  padding-top: 13px;
+}
+.time {
+  position: absolute;
+  font-size: 10px;
+  right: 0;
+  bottom: 0;
+  margin-right: 26px;
+  margin-bottom: 10px;
+}
